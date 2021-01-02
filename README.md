@@ -11,3 +11,9 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 4.  Transmitter holding register(THR) and Receiver buffer register (RBR) are replaced with TX FIFO and Reciever FIFO.
 5.  Choice of two different types of STOP bits can be added. 
 6.  Different types of parity bits like odd and even parity bit can be added.
+
+# ARCHITECTURE PROVIDED BY TI
+![TI](https://user-images.githubusercontent.com/31381446/103456531-2aa85f80-4d1d-11eb-8bd6-aa35630a284e.png)
+
+# MODIFIED ARCHITECTURE
+![TI](https://user-images.githubusercontent.com/31381446/103456601-9d193f80-4d1d-11eb-8537-d119da0a2ac6.png)
