@@ -14,6 +14,5 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 
 # ARCHITECTURE PROVIDED BY TI
 ![TI](https://user-images.githubusercontent.com/31381446/103456531-2aa85f80-4d1d-11eb-8bd6-aa35630a284e.png)
-
 # MODIFIED ARCHITECTURE
-![TI](https://user-images.githubusercontent.com/31381446/103456627-faad8c00-4d1d-11eb-9826-16ade301ac04.png)
+![TI](https://user-images.githubusercontent.com/31381446/103456643-2597e000-4d1e-11eb-962a-99fddfd63232.png)
