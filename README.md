@@ -16,3 +16,10 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 ![TI](https://user-images.githubusercontent.com/31381446/103456531-2aa85f80-4d1d-11eb-8bd6-aa35630a284e.png)
 # MODIFIED ARCHITECTURE
 ![TI](https://user-images.githubusercontent.com/31381446/103456643-2597e000-4d1e-11eb-962a-99fddfd63232.png)
+
+## Now, Let's look inside the Architecture of UART and try to implement it;
+**Some of the specifications of this uart are as follows**; <br />
+**1**. It can send a 16 bit data, by breaking it into two 8-8 bits.To select this configuration we need to program configure WLS bit in LCR register. <br />
+**2**. It sends low bit at the start of the transmission of data. <br />
+**3**. It can send a odd parity or even parity bit, or ca stick parity depending on selection in LCR register. <br />
+**4**. We can send 1 or 2 stop bits, depending upon selection in LCR register. <br />
