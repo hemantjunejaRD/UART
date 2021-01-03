@@ -22,7 +22,7 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 <img width="560" height="550" src="https://user-images.githubusercontent.com/31381446/103456643-2597e000-4d1e-11eb-962a-99fddfd63232.png">
 </p>
 
-## Now, Let's look inside the Architecture of UART and try to implement it;
+## Now, Let's look inside the Architecture of UART and try to implement it,
 **Some of the specifications of this uart are as follows**; <br />
 **1**. It can send a 16 bit data, by breaking it into two 8-8 bits.To select this configuration we need to program configure WLS bit in LCR register. <br />
 **2**. It sends low bit at the start of the transmission of data. <br />
