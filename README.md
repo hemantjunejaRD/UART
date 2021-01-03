@@ -31,7 +31,7 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 
 ### <ins>Data bus inside UART</ins>
 <p align="center">
-<img width="500" height="90" src="https://user-images.githubusercontent.com/31381446/103474449-e58e3700-4dc9-11eb-947e-2b97d79c4176.png">
+<img width="500" height="60" src="https://user-images.githubusercontent.com/31381446/103474449-e58e3700-4dc9-11eb-947e-2b97d79c4176.png">
 </p>
 
 ### <ins>Address of different register</ins>
