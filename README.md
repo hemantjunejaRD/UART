@@ -38,3 +38,5 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 <p align="center">
   <img width="560" height="300" src="https://user-images.githubusercontent.com/31381446/103474461-08b8e680-4dca-11eb-9a9a-adf6a49681b7.png">
 </p>
+
+### To know more about these registers in detail [click here](https://github.com/hemantjunejaRD/UART/blob/main/Docs/README.md)
