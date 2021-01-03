@@ -14,13 +14,14 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 
 # ARCHITECTURE PROVIDED BY TI
 <p align="center">
-<img width="560" height="800" src="https://user-images.githubusercontent.com/31381446/103474732-baf1ad80-4dcc-11eb-949d-f3600dbef557.png">
+<img width="560" height="700" src="https://user-images.githubusercontent.com/31381446/103474732-baf1ad80-4dcc-11eb-949d-f3600dbef557.png">
 </p>
 
 # MODIFIED ARCHITECTURE
 <p align="center">
 <img width="560" height="550" src="https://user-images.githubusercontent.com/31381446/103456643-2597e000-4d1e-11eb-962a-99fddfd63232.png">
 </p>
+
 ## Now, Let's look inside the Architecture of UART and try to implement it;
 **Some of the specifications of this uart are as follows**; <br />
 **1**. It can send a 16 bit data, by breaking it into two 8-8 bits.To select this configuration we need to program configure WLS bit in LCR register. <br />
@@ -32,6 +33,7 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 <p align="center">
 <img width="500" height="90" src="https://user-images.githubusercontent.com/31381446/103474449-e58e3700-4dc9-11eb-947e-2b97d79c4176.png">
 </p>
+
 # <ins>Address of different register</ins>
 <p align="center">
   <img width="560" height="300" src="https://user-images.githubusercontent.com/31381446/103474461-08b8e680-4dca-11eb-9a9a-adf6a49681b7.png">
