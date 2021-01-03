@@ -23,3 +23,8 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 **2**. It sends low bit at the start of the transmission of data. <br />
 **3**. It can send a odd parity or even parity bit, or ca stick parity depending on selection in LCR register. <br />
 **4**. We can send 1 or 2 stop bits, depending upon selection in LCR register. <br />
+
+### Data bus inside UART
+![TI](https://user-images.githubusercontent.com/31381446/103474449-e58e3700-4dc9-11eb-947e-2b97d79c4176.png)
+### Address of different registers
+![TI](https://user-images.githubusercontent.com/31381446/103474461-08b8e680-4dca-11eb-9a9a-adf6a49681b7.png)
