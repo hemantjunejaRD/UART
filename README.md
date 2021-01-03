@@ -12,11 +12,12 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 5.  Choice of two different types of STOP bits can be added. 
 6.  Different types of parity bits like odd and even parity bit can be added.
 
-#                             ARCHITECTURE PROVIDED BY TI
+# ARCHITECTURE PROVIDED BY TI
 <p align="center">
-<img width="560" height="550" src="https://user-images.githubusercontent.com/31381446/103456531-2aa85f80-4d1d-11eb-8bd6-aa35630a284e.png">
+<img width="560" height="800" src="https://user-images.githubusercontent.com/31381446/103474732-baf1ad80-4dcc-11eb-949d-f3600dbef557.png">
 </p>
- #                              MODIFIED ARCHITECTURE
+
+# MODIFIED ARCHITECTURE
 <p align="center">
 <img width="560" height="550" src="https://user-images.githubusercontent.com/31381446/103456643-2597e000-4d1e-11eb-962a-99fddfd63232.png">
 </p>
@@ -27,11 +28,11 @@ To design and implement UART, which is able to take 32 bits of data. Each 32 bit
 **3**. It can send a odd parity or even parity bit, or ca stick parity depending on selection in LCR register. <br />
 **4**. We can send 1 or 2 stop bits, depending upon selection in LCR register. <br />
 
-### <ins>Data bus inside UART</ins>
+# <ins>Data bus inside UART</ins>
 <p align="center">
 <img width="500" height="90" src="https://user-images.githubusercontent.com/31381446/103474449-e58e3700-4dc9-11eb-947e-2b97d79c4176.png">
 </p>
-### <ins>Address of different register</ins>
+# <ins>Address of different register</ins>
 <p align="center">
   <img width="560" height="300" src="https://user-images.githubusercontent.com/31381446/103474461-08b8e680-4dca-11eb-9a9a-adf6a49681b7.png">
 </p>
